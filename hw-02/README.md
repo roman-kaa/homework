@@ -24,8 +24,8 @@
 
 
 ![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-01.png)
-![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-02.png)
-![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-04.png)
+![Скрин 2](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-02.png)
+![Скрин 3](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-04.png)
 
 ---
 
