@@ -16,17 +16,10 @@
 Прикрепите в файл README.md скриншот авторизации в админке.
 Приложите в файл README.md текст использованных команд в GitHub.
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
 
 ```
-Поле для вставки кода...
+apt install postgresql postgresql-contrib
+
 wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
 dpkg -i zabbix-release_latest_6.0+debian11_all.deb
 apt update
@@ -53,25 +46,43 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ### Задание 2
 
-`Приведите ответ в свободной форме........`
+Установите Zabbix Agent на два хоста.
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+Процесс выполнения
+Выполняя ДЗ, сверяйтесь с процессом отражённым в записи лекции.
+Установите Zabbix Agent на 2 вирт.машины, одной из них может быть ваш Zabbix Server.
+Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов.
+Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera.
+Проверьте, что в разделе Latest Data начали появляться данные с добавленных агентов.
+Требования к результатам
+Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
+Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
+Приложите в файл README.md текст использованных команд в GitHub
+
 
 ```
 Поле для вставки кода...
-....
-....
-....
-....
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
+
+dpkg -i zabbix-release_latest_6.0+debian11_all.deb
+
+export PATH=$PATH:/usr/sbin:/sbin 
+#ошибка путей, добавил
+
+apt update
+
+apt install zabbix-agent
+
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-06.png)
+![Скрин 2](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-07.png)
+![Скрин 3](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-08.png)
+
+
 
 
 ---
