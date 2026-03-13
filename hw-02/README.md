@@ -80,7 +80,10 @@ systemctl enable zabbix-agent
 
 ![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-06.png)
 ![Скрин 2](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-07.png)
-![Скрин 3](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-08.png)
+![Скрин 2](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-11.png)
+![Скрин 2](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-12.png)
+
+
 
 
 
