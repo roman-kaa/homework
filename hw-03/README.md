@@ -31,7 +31,7 @@
 ....
 ```
 
-![Задание 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-03-02.png)
+![Задание 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-03/img/hw-03-02.png)
 
 ---
 
