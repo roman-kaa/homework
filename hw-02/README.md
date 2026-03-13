@@ -24,8 +24,8 @@
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
-
-
+https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-04.png
+![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/hw-02/img/hw-02-04.png
 ---
 
 ### Задание 2
