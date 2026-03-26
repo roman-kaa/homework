@@ -21,9 +21,8 @@
 ```
 
 
-![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/hw-02-01.png)
-![Скрин 2](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/hw-02-01.png)
-![Скрин 3](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/hw-02-01.png)
+![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/01.png)
+
 
 ---
 
@@ -45,9 +44,8 @@
 
 ```
 
-![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/hw-02-01.png)
-![Скрин 2](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/hw-02-01.png)
-![Скрин 3](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/hw-02-01.png)
+![Скрин 1](https://github.com/roman-kaa/homeworkmonitoring/blob/main/homeworkgitlab/img/02.png)
+
 
 
 
