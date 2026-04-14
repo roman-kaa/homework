@@ -27,6 +27,8 @@
 ```
 
 ![Скрин 1](https://github.com/roman-kaa/homework/blob/main/hw01/img/img-hw011.png)
+![Screen01](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw01/img/img-hw011.png)
+
 
 
 
