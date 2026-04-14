@@ -11,12 +11,9 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. `Установил и настроил haproxy`
+2. `Внес изминения в конфиг`
+
 
 ```
 Поле для вставки кода...
@@ -26,8 +23,10 @@
 ....
 ```
 
-![Скрин 1](https://github.com/roman-kaa/homework/blob/main/hw01/img/img-hw011.png)
 ![Screen01](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw01/img/img-hw011.png)
+![Screen02](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw01/img/img-hw012.png)
+![Screen03](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw01/img/img-hw013.png)
+![Screen04](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw01/img/img-hw014.png)
 
 
 
