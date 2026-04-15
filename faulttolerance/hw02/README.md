@@ -13,9 +13,7 @@
 
 
 ```
-
 rsync -av --delete --checksum --exclude='.*' ~/ /tmp/backup/
-
 ```
 
 
@@ -42,9 +40,6 @@ rsync -av --delete --checksum --exclude='.*' ~/ /tmp/backup/
 [crontab](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw02/src/crontab)
 
 ```
-
-....
-....
 ```
 
 ![Screen02](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw02/img/img22.png)
