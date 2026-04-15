@@ -13,9 +13,9 @@
 
 
 ```
-Поле для вставки кода...
 
 rsync -av --delete --checksum --exclude='.*' ~/ /tmp/backup/
+
 ```
 
 
@@ -33,23 +33,20 @@ rsync -av --delete --checksum --exclude='.*' ~/ /tmp/backup/
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. `Написал скрипт и сделал его исполняемым`
+2. `В cron задание 0 2 * * * ~/hwrsyncbackup.sh >> /tmp/backup.log 2>&1`
+
+
+[Исполняемый скрипт hwrsyncbackup.sh](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw02/src/hwrsyncbackup.sh)
+[crontab](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw02/src/crontab)
 
 ```
-Поле для вставки кода...
-....
-....
+
 ....
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+![Screen02](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw02/img/img22.png)
 
 
 ---
