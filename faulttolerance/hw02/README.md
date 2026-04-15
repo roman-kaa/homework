@@ -31,13 +31,14 @@ rsync -av --delete --checksum --exclude='.*' ~/ /tmp/backup/
 - Резервная копия размещается локально, в директории `/tmp/backup`
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
-`Приведите ответ в свободной форме........`
+
 
 1. `Написал скрипт и сделал его исполняемым`
 2. `В cron задание 0 2 * * * ~/hwrsyncbackup.sh >> /tmp/backup.log 2>&1`
 
 
 [Исполняемый скрипт hwrsyncbackup.sh](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw02/src/hwrsyncbackup.sh)
+
 [crontab](https://github.com/roman-kaa/homework/blob/main/faulttolerance/hw02/src/crontab)
 
 ```
