@@ -28,22 +28,22 @@
 Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.`
 
 1. `Memcached был установлен и запущен в Docker-контейнере. Для запуска Memcached была использована команда: docker run -d --name memcached -p 11211:11211 memcached Проверка запущенного контейнера: docker ps`
-2. `Заполните здесь этапы выполнения, если требуется ....`
+2. `Для дистрибутивов на базе deb использовал бы команды приведенные ниже`
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
 6. 
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+sudo apt update
+sudo apt install memcached -y
+sudo systemctl enable memcached
+sudo systemctl start memcached
+sudo systemctl status memcached
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+![Screen01](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw02/img/img0201.png)
 
 
 ---
