@@ -1,0 +1,38 @@
+#services:
+#  elasticsearch:
+#    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+#    container_name: elasticsearch
+#    environment:
+#      - node.name=es01
+#      - discovery.type=single-node
+#      - xpack.security.enabled=false
+#      - xpack.security.enrollment.enabled=false
+#      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+#    ports:
+#      - "9200:9200"
+#    networks:
+#      - elk
+#
+#networks:
+#  elk:
+#    driver: bridge
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    container_name: elasticsearch
+    environment:
+      - node.name=es01
+      - cluster.name=elk-random-7f3a9c
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.security.enrollment.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+    networks:
+      - elk
+
+networks:
+  elk:
+    driver: bridge
