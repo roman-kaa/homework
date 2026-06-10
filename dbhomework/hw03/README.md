@@ -16,7 +16,7 @@
 
 `Установите и запустите Kibana. Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.`
 
-![Screen02](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw03/img/img0303.png)
+![Screen03](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw03/img/img0303.png)
 
 
 ---
@@ -25,23 +25,7 @@
 
 `Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch. Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+![Screen02](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw03/img/img0304.png)
 
 ### Задание 4. Filebeat
 
