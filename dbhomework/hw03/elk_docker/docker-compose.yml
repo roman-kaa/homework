@@ -49,6 +49,20 @@ services:
     networks:
       - elk
 
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.13.4
+    container_name: filebeat
+    user: root
+    volumes:
+      - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - ./nginx/logs:/var/log/nginx:ro
+    depends_on:
+      - elasticsearch
+      - kibana
+      - nginx
+    networks:
+      - elk
+
 networks:
   elk:
     driver: bridge
