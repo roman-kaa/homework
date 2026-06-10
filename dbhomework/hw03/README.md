@@ -1,6 +1,5 @@
 # Домашнее задание к занятию "`ELK`" - `Калинковский Роман`
 
----
 
 ### Задание 1. Elasticsearch
 
@@ -21,8 +20,8 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![Screen01](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw03/img/img0302.png)
+![Screen02](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw03/img/img0301.png)
 
 
 ---
