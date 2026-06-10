@@ -16,7 +16,7 @@
 
 `Установите и запустите Kibana. Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.`
 
-![Screen02](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw03/img/img0301.png)
+![Screen02](https://github.com/roman-kaa/homework/blob/main/dbhomework/hw03/img/img0303.png)
 
 
 ---
