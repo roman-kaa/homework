@@ -35,7 +35,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 
 ![Screen01](https://github.com/roman-kaa/homework/blob/main/dbadm/hw01/img/img0101.png)
-![Screen01](https://github.com/roman-kaa/homework/blob/main/dbadm/hw01/img/img0101.png)
+![Screen02](https://github.com/roman-kaa/homework/blob/main/dbadm/hw01/img/img0101.png)
 
 ---
 
