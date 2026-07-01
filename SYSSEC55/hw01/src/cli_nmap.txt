@@ -1,0 +1,131 @@
+sudo nmap -sV -sC -O 192.168.111.144
+[sudo] пароль для kaa:
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-07-01 20:15 +05
+sendto in send_ip_packet_sd: sendto(6, packet, 44, 0, 192.168.111.144, 16) => Operation not permitted
+Offending packet: TCP 192.168.111.111:39836 > 192.168.111.144:53 S ttl=49 id=52600 iplen=44  seq=2128819840 win=1024 <mss 1460>
+sendto in send_ip_packet_sd: sendto(6, packet, 44, 0, 192.168.111.144, 16) => Operation not permitted
+Offending packet: TCP 192.168.111.111:39838 > 192.168.111.144:53 S ttl=39 id=9364 iplen=44  seq=2128688770 win=1024 <mss 1460>
+Nmap scan report for 192.168.111.144
+Host is up (0.00030s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE    SERVICE     VERSION
+21/tcp   open     ftp         vsftpd 2.3.4
+| ftp-syst:
+|   STAT:
+| FTP server status:
+|      Connected to 192.168.111.111
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      vsFTPd 2.3.4 - secure, fast, stable
+|_End of status
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+22/tcp   open     ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+| ssh-hostkey:
+|   1024 60:0f:cf:e1:c0:5f:6a:74:d6:90:24:fa:c4:d5:6c:cd (DSA)
+|_  2048 56:56:24:0f:21:1d:de:a7:2b:ae:61:b1:24:3d:e8:f3 (RSA)
+23/tcp   open     telnet      Linux telnetd
+25/tcp   open     smtp        Postfix smtpd
+|_ssl-date: 2026-07-01T15:16:21+00:00; 0s from scanner time.
+| sslv2:
+|   SSLv2 supported
+|   ciphers:
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|_    SSL2_RC2_128_CBC_WITH_MD5
+|_smtp-commands: metasploitable.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN
+53/tcp   filtered domain
+80/tcp   open     http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+|_http-server-header: Apache/2.2.8 (Ubuntu) DAV/2
+|_http-title: Metasploitable2 - Linux
+111/tcp  open     rpcbind     2 (RPC #100000)
+| rpcinfo:
+|   program version    port/proto  service
+|   100000  2            111/tcp   rpcbind
+|   100000  2            111/udp   rpcbind
+|   100003  2,3,4       2049/tcp   nfs
+|   100003  2,3,4       2049/udp   nfs
+|   100005  1,2,3      43719/tcp   mountd
+|   100005  1,2,3      59113/udp   mountd
+|   100021  1,3,4      41908/udp   nlockmgr
+|   100021  1,3,4      51793/tcp   nlockmgr
+|   100024  1          34215/udp   status
+|_  100024  1          35195/tcp   status
+139/tcp  open     netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open     netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)
+512/tcp  open     exec        netkit-rsh rexecd
+513/tcp  open     login       OpenBSD or Solaris rlogind
+514/tcp  open     tcpwrapped
+1099/tcp open     java-rmi    GNU Classpath grmiregistry
+1524/tcp open     bindshell   Metasploitable root shell
+2049/tcp open     nfs         2-4 (RPC #100003)
+2121/tcp open     ftp         ProFTPD 1.3.1
+3306/tcp open     mysql       MySQL 5.0.51a-3ubuntu5
+| mysql-info:
+|   Protocol: 10
+|   Version: 5.0.51a-3ubuntu5
+|   Thread ID: 27
+|   Capabilities flags: 43564
+|   Some Capabilities: ConnectWithDatabase, Support41Auth, Speaks41ProtocolNew, LongColumnFlag, SupportsCompression, SupportsTransactions, SwitchToSSLAfterHandshake
+|   Status: Autocommit
+|_  Salt: #""#)AL9ywh&#xW)gJ|S
+5432/tcp open     postgresql  PostgreSQL DB 8.3.0 - 8.3.7
+|_ssl-date: 2026-07-01T15:16:21+00:00; 0s from scanner time.
+5900/tcp open     vnc         VNC (protocol 3.3)
+| vnc-info:
+|   Protocol version: 3.3
+|   Security types:
+|_    VNC Authentication (2)
+6000/tcp open     X11         (access denied)
+6667/tcp open     irc         UnrealIRCd
+| irc-info:
+|   users: 1
+|   servers: 1
+|   lusers: 1
+|   lservers: 0
+|   server: irc.Metasploitable.LAN
+|   version: Unreal3.2.8.1. irc.Metasploitable.LAN
+|   uptime: 0 days, 0:12:19
+|   source ident: nmap
+|   source host: A3AE9A25.AA4D01C7.FFFA6D49.IP
+|_  error: Closing Link: osfwduqhv[192.168.111.111] (Quit: osfwduqhv)
+8009/tcp open     ajp13       Apache Jserv (Protocol v1.3)
+|_ajp-methods: Failed to get a valid response for the OPTION request
+8180/tcp open     http        Apache Tomcat/Coyote JSP engine 1.1
+|_http-favicon: Apache Tomcat
+|_http-title: Apache Tomcat/5.5
+|_http-server-header: Apache-Coyote/1.1
+MAC Address: 08:00:27:B2:31:17 (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+Service Info: Hosts:  metasploitable.localdomain, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb-os-discovery:
+|   OS: Unix (Samba 3.0.20-Debian)
+|   Computer name: metasploitable
+|   NetBIOS computer name:
+|   Domain name: localdomain
+|   FQDN: metasploitable.localdomain
+|_  System time: 2026-07-01T11:16:14-04:00
+|_nbstat: NetBIOS name: METASPLOITABLE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-security-mode:
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+|_clock-skew: mean: 59m59s, deviation: 2h00m00s, median: 0s
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 34.45 seconds
+
