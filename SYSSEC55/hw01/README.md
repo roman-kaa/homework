@@ -34,12 +34,36 @@
 Как отвечает сервер?
 Приведите ответ в свободной форме.
 
-sudo nmap -sS 192.168.111.144
-sudo nmap -sF 192.168.111.144
-sudo nmap -sX 192.168.111.144
-sudo nmap -sU 192.168.111.144
+
+Режимы отличаются типом отправляемых пакетов и реакцией сервера.
+
+SYN Scan использует только начало TCP-соединения. Клиент отправляет пакет SYN, сервер отвечает SYN+ACK для открытого порта, после чего Nmap сразу отправляет пакет RST. Полное соединение не устанавливается.
+FIN Scan отправляет TCP-пакет только с установленным флагом FIN. Открытый порт обычно не отвечает, а закрытый отправляет пакет RST.
+Xmas Scan использует TCP-пакет с флагами FIN, PSH и URG одновременно. Поведение сервера аналогично FIN Scan, однако в сети передаются пакеты с другим набором TCP-флагов.
+UDP Scan отправляет UDP-пакеты без установления соединения. Если порт закрыт, сервер отвечает сообщением ICMP Destination Unreachable (Port Unreachable). Если порт открыт, ответ чаще всего отсутствует либо отвечает сама служба.
+
+SYN Scan
+открытый порт → SYN+ACK;
+закрытый порт → RST.
+FIN Scan
+открытый порт → ответа нет;
+закрытый порт → RST.
+Xmas Scan
+открытый порт → ответа нет;
+закрытый порт → RST.
+UDP Scan
+открытый порт → обычно нет ответа либо отвечает UDP-служба;
+закрытый порт → ICMP Destination Unreachable (Port Unreachable).
+Итоговая таблица
+
+Режим	Команда	Что отправляет Nmap	Ответ открытого порта	Ответ закрытого порта
+
+SYN	sudo nmap -sS 192.168.111.144	TCP SYN	SYN+ACK, затем RST от Nmap	RST
+FIN	sudo nmap -sF 192.168.111.144	TCP FIN	Нет ответа	RST
+Xmas	sudo nmap -sX 192.168.111.144	TCP FIN+PSH+URG	Нет ответа	RST
+UDP	sudo nmap -sU 192.168.111.144	UDP-пакет	Обычно нет ответа или ответ службы	ICMP Port Unreachable
+
 
 [wireshark](https://github.com/roman-kaa/homework/blob/main/syssec55/hw01/src/netology.pcapng)
 
 ![Screen02](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw01/img/img0102.png)
----
