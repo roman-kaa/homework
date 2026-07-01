@@ -20,8 +20,7 @@
 
 [cli_nmap](https://github.com/roman-kaa/homework/blob/main/syssec55/hw01/src/cli_nmap.txt)
 
-![Screen01](https://github.com/roman-kaa/homework/blob/main/syssec55/hw01/img/img0101.png)
-
+![Screen01](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw01/img/img0101.png)
 ---
 
 ### Задание 2
@@ -45,7 +44,7 @@
 6. 
 
 ```
-Поле для вставки кода...
+        Поле для вставки кода...
 ....
 ....
 ....
