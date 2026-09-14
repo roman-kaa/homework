@@ -69,6 +69,7 @@ Hey, Netology
 ![Screen07](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img07.png)
 ![Screen08](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img08.png)
 
+![Screen09](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img09.png)
 
 
 ## Задача 4
