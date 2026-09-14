@@ -63,6 +63,14 @@ Hey, Netology
 ![Screen04](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img04.png)
 ![Screen05](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img05.png)
 
+```Внутри контейнера Nginx слушает порт 81. Перезагрузка конфигурации Nginx не изменяет настройки проброса портов Docker```
+
+![Screen06](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img06.png)
+![Screen07](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img07.png)
+![Screen08](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img08.png)
+
+
+
 ## Задача 4
 
 
