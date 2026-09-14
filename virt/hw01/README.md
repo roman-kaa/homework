@@ -58,6 +58,11 @@ Hey, Netology
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
+```Ctrl+C передало сигнал SIGINT основному процессу контейнера — Nginx. Nginx обработал сигнал и завершился. Завершение основного процесса привело к остановке контейнера.```
+
+![Screen03](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img04.png)
+![Screen05](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img03.png)
+
 ## Задача 4
 
 
