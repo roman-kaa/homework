@@ -84,6 +84,8 @@ Hey, Netology
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
+![Screen10](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img10.png)
+
 
 ## Задача 5
 
