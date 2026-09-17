@@ -134,6 +134,15 @@ services:
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
+![Screen11](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img11.png)
+![Screen12](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img12.png)
+![Screen13](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img13.png)
+![Screen14](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img14.png)
+![Screen15](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img15.png)
+![Screen16](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img16.png)
+![Screen17](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img17.png)
+![Screen18](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img18.png)
+![Screen19](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img19.png)
 ---
 
 ### Правила приема
