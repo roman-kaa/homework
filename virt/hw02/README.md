@@ -29,7 +29,6 @@ See 'snap info docker' for additional versions.
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
 ![Screen00](https://github.com/roman-kaa/homework/blob/main/virt/hw02/img/img00.png)
-![Screen01](https://github.com/roman-kaa/homework/blob/main/virt/hw01/img/img02.png)
 
 ---
 
@@ -49,6 +48,7 @@ See 'snap info docker' for additional versions.
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 ---
+[fork репозитория](https://github.com/roman-kaa/shvirtd-example-python)
 
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
