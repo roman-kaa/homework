@@ -95,3 +95,7 @@ See 'snap info docker' for additional versions.
 ## Задача 6
 Скачайте docker образ ```hashicorp/terraform:latest``` и скопируйте бинарный файл ```/bin/terraform``` на свою локальную машину, используя dive и docker save.
 Предоставьте скриншоты  действий .
+
+![Screen03](https://github.com/roman-kaa/homework/blob/main/virt/hw02/img/img03.png)
+![Screen04](https://github.com/roman-kaa/homework/blob/main/virt/hw02/img/img04.png)
+![Screen05](https://github.com/roman-kaa/homework/blob/main/virt/hw02/img/img05.png)
