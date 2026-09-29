@@ -63,6 +63,9 @@
 ![Screen09](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img009.png)
 ![Screen10](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img010.png)
 
+1.8 
+![Screen11](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img011.png)
+![Screen12](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img012.png)
 ------
 
 ## Дополнительное задание (со звёздочкой*)
