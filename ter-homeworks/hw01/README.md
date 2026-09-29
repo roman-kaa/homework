@@ -45,6 +45,9 @@
 ```
 1.2 Личную и секретную информацию допустимо сохранить в файле personal.auto.tfvars, поскольку он указан в .gitignore и исключён из отслеживания Git. Terraform автоматически загружает переменные из файлов *.auto.tfvars.
 ```
+1.3
+![Screen01](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img003.png)
+
 ------
 
 ## Дополнительное задание (со звёздочкой*)
