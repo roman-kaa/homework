@@ -71,6 +71,8 @@
 1.9
 
 ```
+https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/image#keep_locally
+
 Причина main.tf:
 
   keep_locally = true
