@@ -55,6 +55,9 @@
 ![Screen05](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img005.png)
 ![Screen06](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img006.png)
 
+1.5
+![Screen07](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img008.png)
+
 ------
 
 ## Дополнительное задание (со звёздочкой*)
