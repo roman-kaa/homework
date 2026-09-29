@@ -40,13 +40,20 @@
 9. Объясните, почему при этом не был удалён docker-образ **nginx:latest**. Ответ **ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ**, а затем **ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ** строчкой из документации [**terraform провайдера docker**](https://library.tf/providers/kreuzwerker/docker/latest).  (ищите в классификаторе resource docker_image )
 
 1.1 
-![Screen01](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img002.png)
+![Screen02](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img002.png)
 
 ```
 1.2 Личную и секретную информацию допустимо сохранить в файле personal.auto.tfvars, поскольку он указан в .gitignore и исключён из отслеживания Git. Terraform автоматически загружает переменные из файлов *.auto.tfvars.
 ```
 1.3
-![Screen01](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img003.png)
+![Screen03](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img003.png)
+
+1.4
+Исправляем
+
+![Screen04](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img004.png)
+![Screen05](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img005.png)
+![Screen06](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img006.png)
 
 ------
 
