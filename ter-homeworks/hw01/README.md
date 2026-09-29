@@ -68,6 +68,22 @@
 ![Screen12](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img012.png)
 ------
 
+1.9
+
+```
+Причина main.tf:
+
+  keep_locally = true
+
+
+Параметр keep_locally = true сохраняет образ в локальном хранилище Docker при выполнении terraform destroy. При этом Terraform удаляет запись о ресурсе из state.
+В документации docker_image для keep_locally сказано:
+
+If true, then the Docker image won't be deleted on destroy operation. Terraform Registry
+
+```
+![Screen13](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img013.png)
+
 ## Дополнительное задание (со звёздочкой*)
 
 **Настоятельно рекомендуем выполнять все задания со звёздочкой.** Они помогут глубже разобраться в материале.   
