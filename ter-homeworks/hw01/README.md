@@ -39,10 +39,11 @@
 8. Уничтожьте созданные ресурсы с помощью **terraform**. Убедитесь, что все ресурсы удалены. Приложите содержимое файла **terraform.tfstate**. 
 9. Объясните, почему при этом не был удалён docker-образ **nginx:latest**. Ответ **ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ**, а затем **ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ** строчкой из документации [**terraform провайдера docker**](https://library.tf/providers/kreuzwerker/docker/latest).  (ищите в классификаторе resource docker_image )
 
+1.1 
 ![Screen01](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img002.png)
 
 ```
-2. Личную и секретную информацию допустимо сохранить в файле personal.auto.tfvars, поскольку он указан в .gitignore и исключён из отслеживания Git. Terraform автоматически загружает переменные из файлов *.auto.tfvars.
+1.2 Личную и секретную информацию допустимо сохранить в файле personal.auto.tfvars, поскольку он указан в .gitignore и исключён из отслеживания Git. Terraform автоматически загружает переменные из файлов *.auto.tfvars.
 ```
 ------
 
