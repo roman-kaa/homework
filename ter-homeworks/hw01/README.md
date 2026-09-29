@@ -58,6 +58,11 @@
 1.5
 ![Screen07](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img008.png)
 
+1.6 Опасность -auto-approve заключается в применении изменений без ручного подтверждения плана: что может привести к удалению или пересозданию ресурсов и потере данных. Ключ полезен для автоматизации, где нет возможности интерактивно вводить подтверждение.
+
+![Screen09](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img009.png)
+![Screen10](https://github.com/roman-kaa/homework/blob/main/ter-homeworks/hw01/img/img010.png)
+
 ------
 
 ## Дополнительное задание (со звёздочкой*)
